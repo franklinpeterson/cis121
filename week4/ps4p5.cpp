@@ -21,10 +21,10 @@ int main() {
 
     // Output
     cout << "Lastname: " << lastname << endl;
-    cout << "G_income: " << g_income << endl;
-    cout << "Num_dependents: " << num_dependents << endl;
-    cout << "Ag_income: " << ag_income << endl;
-    cout << "Income_tax: " << income_tax << endl;
+    cout << "Gross income: " << g_income << endl;
+    cout << "Number of dependents: " << num_dependents << endl;
+    cout << "Adjusted gross income: " << ag_income << endl;
+    cout << "Income tax: " << income_tax << endl;
 
     return 0;
 }

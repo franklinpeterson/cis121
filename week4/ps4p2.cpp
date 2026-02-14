@@ -19,7 +19,7 @@ int main() {
     // Output
     cout << "Item: " << item << endl;
     cout << "Price: " << price << endl;
-    cout << "Eprice: " << eprice << endl;
+    cout << "Total price: " << eprice << endl;
 
     return 0;
 }
