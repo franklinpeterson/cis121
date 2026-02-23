@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/record/Documents/cis121/week5/ps5p4'
+relocations:     []
+...
