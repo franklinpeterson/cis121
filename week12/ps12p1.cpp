@@ -4,7 +4,7 @@
 #include <iomanip>
 using namespace std;
 
-// Function to initialise student data from file
+// Function to get student data from file
 void readStudents(string firstName[], string lastName[], double gpa[]) {
     ifstream inputFile("students.txt");
     for (int i = 0; i < 10; i++) {

@@ -4,7 +4,7 @@
 #include <iomanip>
 using namespace std;
 
-// Function to load employee data into arrays
+// Function to load data into arrays
 void loadEmployees(string firstName[], string lastName[], double salary[]) {
     ifstream inputFile("Empldata.txt");
     for (int i = 0; i < 10; i++) {
@@ -20,7 +20,7 @@ void displayEmployees(string firstName[], string lastName[], double salary[]) {
     }
 }
 
-// Function to perform sequential search on last name
+// Last name search function
 int searchEmployees(string lastName[], string searchName) {
     for (int i = 0; i < 10; i++) {
         if (lastName[i] == searchName) {

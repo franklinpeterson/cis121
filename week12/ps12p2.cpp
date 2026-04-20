@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-// Function to load city data into arrays
+// City data loading function
 void loadCities(string cityName[], int population[]) {
     ifstream inputFile("cities.txt");
     for (int i = 0; i < 8; i++) {
@@ -19,7 +19,7 @@ void displayCities(string cityName[], int population[]) {
     }
 }
 
-// Function to perform sequential search
+// Search function
 int searchCities(string cityName[], string searchCity) {
     for (int i = 0; i < 8; i++) {
         if (cityName[i] == searchCity) {
